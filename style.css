@@ -121,3 +121,32 @@ th{
 table td:hover{
     background-color: #ffffff55;
 }
+
+@media (max-width: 1000px){
+    .data-box{
+        height: 100px;
+        width: 100px;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        font-size: small;
+        overflow: hidden;
+    }
+    
+    table{
+        width: 100%;
+    }
+}
+@media (max-width: 330px){
+    .data-box{
+        height: 80px;
+        width: 80px;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        font-size: small;
+        overflow: hidden;
+    }
+    
+    table{
+        width: 100%;
+    }
+}
